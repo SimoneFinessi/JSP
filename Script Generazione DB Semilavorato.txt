@@ -1,0 +1,14 @@
+-- DROP SCHEMA dbo;
+
+CREATE SCHEMA dbo;
+-- hrportal.dbo.Configurations definition
+
+-- Drop table
+
+
+CREATE TABLE hrportal.dbo.testtable (
+	id bigint IDENTITY(1,1) NOT NULL,
+	username varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	password varchar(100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	CONSTRAINT testtable_PK PRIMARY KEY (id)
+);
